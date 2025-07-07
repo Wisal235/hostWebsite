@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- UN ICONS -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- FAV ICON -->
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <title>Meet the Developers</title>
+</head>
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <nav id="header">
+      <div class="nav-logo">
+        <p class="nav-name">Hello There!</p>
+      </div>
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list"><a href="index.html#home" class="nav-link">EMR RENO</a><div class="circle"></div></li>
+          <li class="nav_list"><a href="CheatSheet/html/html_cs.html" class="nav-link">Our HTML CS</a><div class="circle"></div></li>
+          <li class="nav_list"><a href="CheatSheet/css/css_cs.html" class="nav-link">Our CSS CS</a><div class="circle"></div></li>
+          <li class="nav_list"><a href="CheatSheet/js/js_cs.html" class="nav-link">Our JS CS</a><div class="circle"></div></li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <button onclick="window.location.href='http://www.dropbox.com/scl/fi/73h8k06pwfox0ljwgb4u9/Cataloug.pdf?dl=0'" class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+      </div>
+      <div class="nav-menu-btn">
+        <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </div>
+    </nav>
+
+    <main class="wrapper">
+      <section class="section" id="meet">
+        <div class="top-header">
+          <h1>Meet the Developers</h1>
+          <span>Learn more about the team behind EMR Renovation</span>
+        </div>
+        <div class="project-container" style="display: flex; gap: 40px; flex-wrap: wrap; justify-content: center;">
+         
+          <div style="text-align: center; max-width: 300px;">
+            <img src="Pics/wisal.jpg" alt="Developer 1" style="border-radius: 20px; width: 100%; height: auto; object-fit: cover;">
+            <h3>Wisal Salim</h3>
+            <label>Front-end Engineer</label>
+            <p>Specializes in React, CSS, and accessibility.</p>
+            <div style="display: flex; justify-content: center; gap: 15px; margin-top: 10px;">
+              <a href="https://github.com"><i class="uil uil-github" style="font-size: 24px;"></i></a>
+              <a href="https://linkedin.com"><i class="uil uil-linkedin-alt" style="font-size: 24px;"></i></a>
+            </div>
+          </div>
+
+          <div style="text-align: center; max-width: 300px;">
+            <img src="Pics/tara.jpg" alt="Developer 2" style="border-radius: 20px; width: 100%; height: auto; object-fit: cover;">
+            <h3>Tara Algaisy</h3>
+            <label>Back-end Engineer</label>
+            <p>Expert in Node.js, databases, and APIs.</p>
+            <div style="display: flex; justify-content: center; gap: 15px; margin-top: 10px;">
+              <a href="https://github.com"><i class="uil uil-github" style="font-size: 24px;"></i></a>
+              <a href="https://linkedin.com"><i class="uil uil-linkedin-alt" style="font-size: 24px;"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="top-footer">
+        <p>Follow for more exciting projects! </p>
+      </div>
+      <div class="footer-social-icons">
+        <div class="icon"><i class="uil uil-instagram" onclick="window.location.href='http://www.instagram.com'"></i></div>
+        <div class="icon"><i class="uil uil-linkedin-alt" onclick="window.location.href='http://www.linkedin.com'"></i></div>
+        <div class="icon"><i class="uil uil-facebook" onclick="window.location.href='http://www.facebook.com'"></i></div>
+        <div class="icon"><i class="uil uil-whatsapp-alt" onclick="window.location.href='http://wa.me/1234567890'"></i></div>
+      </div>
+      <div class="bottom-footer">
+        <p>Copyright &copy; <a href="About_us.html" style="text-decoration: none;">W&T</a> - All rights reserved</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
