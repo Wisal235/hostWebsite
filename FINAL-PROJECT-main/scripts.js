@@ -32,7 +32,7 @@
 
 /* TYPING EFFECT */
    var typingEffect = new Typed(".typedText",{
-      strings : ["Designers","Renovators","Craftsmen","Builders","Experts","EMR"],
+      strings : ["Designers","Renovators","Craftsmen","Builders","Experts","Ebrar"],
       loop : true,
       typeSpeed : 100, 
       backSpeed : 80,
